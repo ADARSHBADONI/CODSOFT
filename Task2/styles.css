@@ -1,0 +1,180 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: white;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #0f0f0f;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    position: relative;;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu li a:hover {
+    color: #1eb40a;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    background-color: rgb(11, 13, 11);
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(5, 124, 23, 0.95);
+}
+
+/* About Section */
+#about img:hover {
+    max-width: 100%;
+    border-radius: 18px;
+    margin-bottom: 40px;
+    box-shadow: #1eb40a;
+    color: #25e90b;
+
+}
+
+/* Common styles for headlines and paragraphs */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+#skills ul {
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+#skills li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Projects Section */
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(5, 124, 23, 0.95);
+}
+
+.project img {
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Resume Section */
+#resume a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#resume a:hover {
+    color: #0e9d0e;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contact div {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#contact img {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+a:hover {
+    color: #32bd0f;
+}
